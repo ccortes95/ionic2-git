@@ -1,5 +1,5 @@
 {
-  "name": "ionic-app-base",
+  "name": "ionic-hello-world",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
@@ -33,7 +33,12 @@
   },
   "cordovaPlugins": [
     "cordova-plugin-statusbar",
-    "cordova-plugin-console"
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-whitelist",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-splashscreen"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [],
+  "description": "ionic2-git: An Ionic project"
 }
